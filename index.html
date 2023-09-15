@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Angel Veliz">
+    <meta name="description" content="Pagina Web de Technical and Business Institute">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>TBI | Technical and Business Institute</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="estilos/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="index.html">
+            <img src="imagenes/icono.svg" width="100" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="paginas/curso.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/servicio.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion -->
+    <section>
+      <div class="container-fluid">
+        <div class="card text-bg-dark">
+          <img src="imagenes/portada.svg" class="card-img" alt="Portada de TBI">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Technical and Business Institute</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner -->
+    <section>
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/proyecto1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">atras</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Delante</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!-- Lista de Cursos -->
+    <section>
+      <h2 class="seccion-titulo">Cursos</h2>
+      <table border="1"> 
+        <tr>
+            <th>REGULAR COURSES</th>
+            <th>SPECIALIZED TRAINING</th>
+        </tr>
+        <tr>
+            <td><ul>
+              <li>Accounting in QuickBooks</li>
+              <li>Bookkeeper</li>
+              <li>Paralegal</li>
+              <li>English</li>
+              <li>Spanish</li>
+              <li>Real State</li>
+              <li>Marketing Digital</li>
+              <li>Excel</li>
+            </ul>
+            </td>
+            <td><ul>
+              <li>QuickBooks Online *</li>
+              <li>QuickBooks Desktop*</li>
+              <li>Income Tax *</li>
+              <li>Corporate Taxes*</li>
+              <li>Citizenship Course</li>
+              <li>Payroll</li>
+              <li>Office(Word, Excel, PPT)</li>
+              <li>Oratoria</li>
+              <li>Formas de Inmigracion</li>
+            </ul></td>
+        </tr>
+    </table>
+    </section>
+
+    <!-- Training Services -->
+    <section class="container">
+      <h2 class="seccion-titulo">Continuing Education and training services</h2>
+      <p class="seccion-descripcion educacion-descripcion">Continuing Education and training services es una Empresa que nace con el objetivo de desarrollar actividades y eventos en el campo de la Educación con el propósito de contribuir con las necesidades de capacitación y entrenamiento de las personas y empresas. Nuestro programa educativo comprende el desarrollo de Cursos, Seminarios, Asesorías, desarrollo de proyectos Educativos , asociaciones, promoción y representación de instituciones.
+      </p>
+    </section>
+
+    <!-- Taller de ciudadania Americana-->
+    <section id="talleres" class="talleres seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+      <!-- Carrusel -->
+      <div id="talleres-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="taller-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
+              <p class="taller-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="taller-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="taller-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
+              <p class="taller-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="taller-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="taller-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+              <p class="taller-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="taller-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#tallerres-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#talleres-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Jane Doe (2022) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
