@@ -1,180 +1,167 @@
 /* Barra de navegacion */
 
 .navbar {
-  /*padding: 2rem;*/
-  background-color: #f5f6f7;
+  background-color: #f5f6f7; /*color de fondo*/
 }
 
 .navbar-collapse {
-  align-items: center;
-  justify-content: space-between;  
+  align-items: center; /*alineacion vertical centrado*/
+  justify-content: space-between;  /*distribucion de contenido ocupando desde los extremos*/
 }
 
 /* Estilos generales */
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+section { /*todos los section son centrados*/
+  display: flex; /*caja flexible*/
+  flex-direction: column; /*direccion de columna = */
+  align-items: center; /*alineacion vertical centrado*/
+  justify-content: center; /*alineacion horizontal centrado*/
 }
-
-h1 {
-  font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+.centrado{
+  display: flex; /*caja flexible*/
+  align-items: center; /*alineacion vertical centrado*/
+  justify-content: center;/*alineacion horizontal centrado*/
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #1b1b32;
+  color: white; /*color de letra*/
+  background-color: #1b1b32;/*color de fondo*/
 }
 
 .seccion-clara {
-  color: black;
-  background-color: white;
+  color: black; /*color de letra*/
+  background-color: white;/*color de fondo*/
 }
 
+/*.seccion-texto {*/
+  /*font-size: 1.2rem; /*tamaño de letra*/
+/*}*/
+
+
 .seccion-titulo {
-  font-size: 2rem;
-  padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-size: 2rem; /*tamaño de letra*/
+  padding: 15px 0; /*padding < border < margin*/
+  font-family: 'Rubik Dirt', cursive; /*familia de letra*/
 }
 
 .seccion-descripcion {
-  font-size: 1.2rem;
-  color: #584e4e;
+  font-size: 1.2rem; /*tamaño de letra*/
+  color: #584e4e; /*color de letra*/
 }
-
-.seccion-texto {
-  font-size: 1.2rem;
-}
-
-.btn-info {
-  font-size: 1.1rem;
-  margin: 20px;
-}
-
-.texto-negro {
-  color: black;
-}
-
-.texto-blanco {
-  color: white;
-}
-
-.centrado{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.seccion-imagen{
+  border: solid 4px darkred; /*padding < border < margin*/
+  border-radius: 15px; /*curva de esquinas*/
+  margin: 10px; /*padding < border < margin*/
 }
 
 .educacion-descripcion{
-  text-align: justify;
+  text-align: justify; /*justificado en el texto*/
+  padding: 0 20px; /*padding < border < margin*/
 }
 
 /* Talleres */
 
 .talleres {
-  padding: 40px 40px 80px 40px;
+  padding: 40px 40px 80px 40px; /*padding < border < margin (arriba, -->, abajo, <--)*/
 }
 
 .talleres .carousel {
-  max-width: 800px;
+  max-width: 800px; /*ancho maximo*/
 }
 
 .carousel-item {
-  height: 500px;
+  height: 500px; /*altura fija*/
 }
 
 .carousel-item .container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%; /*ancho total*/
+  height: 100%;/*altura total*/
+  display: flex;/*caja flexible*/
+  flex-direction: column;/*direccion de columna = */
+  align-items: center; /*alineacion vertical centrada*/
+  justify-content: center;/*alineacion horizontal centrada*/
 }
 
 .taller-imagen {
-  height: 150px;
-  width: 150px;
-  margin: 10px 10px 20px 10px;
+  height: 150px;/*altura fija*/
+  width: 150px;/*ancho fijo*/
+  margin: 10px 10px 20px 10px;/*padding < border < margin*/
 }
 
 .taller-texto {
-  max-width: 70%;
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  max-width: 70%;/*ancho maximo*/
+  font-size: 20px;/*tamaño de letra*/
+  text-align: center;/*texto alineado horizontalmente al centro*/
+  font-family: 'Share Tech Mono', monospace;/*familia de texto*/
 }
 
 .taller-info {
-  font-weight: bold;
-  text-align: center;
+  font-weight: bold;/*negrita*/
+  text-align: center;/*texto alineado horizontalmente al centro*/
 }
 
 .taller-info p {
-  margin-bottom: 0;
+  margin-bottom: 0;/*padding < border < margin - bottom = abajo*/
 }
 
 .taller-footer .cliente {
-  font-size: 1.2rem;
+  font-size: 1.2rem;/*tamaño de letra*/
 }
 
 .taller-info .cargo {
-  font-size: 0.9rem;
-  color: #656060;
+  font-size: 0.9rem;/*tamaño de letra*/
+  color: #656060;/*color de letra*/
 }
 
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  min-height: 450px;/*altura minima*/
 }
 
 .footer-logo {
-  height: 80px;
-  width: 80px;
-  margin: 10px;
+  height: 80px;/*altura fija*/
+  width: 80px;/*ancho fijo*/
+  margin: 10px;/*padding < border < margin*/
 }
 
 .footer-texto {
-  font-size: 1.5rem;
-  padding: 20px;
-  margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;/*tamaño de letra*/
+  padding: 20px;/*padding < border < margin*/
+  margin-bottom: 30px;/*padding < border < margin*/
+  font-family: 'Quicksand', sans-serif;/*familia de letra*/
 }
 
 .iconos-redes-sociales a {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2px;
-  margin: 10px;
-  border: 2px solid white;
-  border-radius: 50%;
-  transition: all 0.2s ease-in;
+  width: 50px;/*ancho fijo*/
+  height: 50px;/*altura fija*/
+  display: flex;/*caja flexible*/
+  align-items: center;/*alineacion vertical centrado*/
+  justify-content: center;/*alineacion horizontal centrado*/
+  padding: 2px;/*padding < border < margin*/
+  margin: 10px;/*padding < border < margin*/
+  border: 2px solid white;/*padding < border < margin*/
+  border-radius: 50%;/*radio de borde*/
+  transition: all 0.2s ease-in;/*transicion*/
 }
 
 .iconos-redes-sociales i {
-  color: white;
-  font-size: 1.5rem;
-  transition: all 0.2s ease-in;
+  color: white; /*color de letra*/
+  font-size: 1.5rem;/*tamaño de letra*/
+  transition: all 0.2s ease-in;/*transicion*/
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: white;/*color de letra*/
+  border: 2px solid rgb(13, 110, 253);/*padding < border < margin*/
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: black;/*color de letra*/
 }
 
 .derechos-de-autor {
-  font-size: 15px;
-  color: #aeaeae;
-  padding: 20px;
+  font-size: 15px;/*tamaño de letra*/
+  color: #aeaeae;/*color de letra*/
+  padding: 20px;/*padding < border < margin*/
 }
